@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day"],
+      "responses": ["Hello! How can I assist you with your medical needs today?", "Hi there! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Take care of your health.", "See you later! Stay healthy!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["You're welcome! Happy to help.", "Anytime! Stay healthy!"]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": ["I have a headache", "I'm feeling nauseous", "I have a fever", "My stomach hurts"],
+      "responses": ["I'm sorry to hear that. Please describe your symptoms in more detail.", "It sounds like you might need to see a doctor. Can you tell me more about your symptoms?"]
+    },
+    {
+      "tag": "medication",
+      "patterns": ["What medication should I take for a cold?", "Can I take ibuprofen for a headache?", "What are the side effects of amoxicillin?"],
+      "responses": ["For a cold, it's best to consult with a healthcare provider. Over-the-counter medications like ibuprofen can help with symptoms.", "Ibuprofen can help with a headache, but always follow the dosage instructions on the label.", "Common side effects of amoxicillin include nausea, vomiting, and diarrhea. Consult your doctor for more information."]
+    },
+    {
+      "tag": "appointment",
+      "patterns": ["I need to book an appointment", "Can I see a doctor tomorrow?", "I need a doctor's appointment"],
+      "responses": ["I can help you book an appointment. What time and date would be convenient for you?", "Sure, let's schedule an appointment. Please provide your preferred date and time."]
+    },
+    {
+      "tag": "emergency",
+      "patterns": ["I have chest pain", "I'm having trouble breathing", "I think I'm having a heart attack"],
+      "responses": ["This sounds serious. Please call emergency services immediately.", "If you are experiencing severe symptoms, please call 911 or go to the nearest emergency room."]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["Sorry, I don't understand.", "I'm not sure about that.", "Can you rephrase?"]
+    },
+    {
+      "tag": "alzheimer",
+      "patterns": ["What are the symptoms of Alzheimer's?", "How do I know if someone has Alzheimer's?", "Signs of Alzheimer's"],
+      "responses": ["Symptoms of Alzheimer's include memory loss, confusion, difficulty with language, and changes in mood or behavior."]
+    },
+    {
+      "tag": "flu",
+      "patterns": ["What are the symptoms of the flu?", "How do I know if I have the flu?", "Signs of the flu"],
+      "responses": ["Symptoms of the flu include fever, chills, muscle aches, cough, congestion, runny nose, headaches, and fatigue."]
+    },
+    {
+      "tag": "common cold",
+      "patterns": ["What are the symptoms of a common cold?", "How do I know if I have a cold?", "Signs of a cold"],
+      "responses": ["Symptoms of a common cold include a runny or stuffy nose, sore throat, cough, congestion, slight body aches, and sneezing."]
+    },
+    {
+      "tag": "sti",
+      "patterns": ["What are the symptoms of an STI?", "How do I know if I have an STD?", "Signs of an STI"],
+      "responses": ["Symptoms of STIs can vary but may include sores or bumps on the genitals, painful urination, unusual discharge, and itching or irritation."]
+    },
+    {
+      "tag": "diabetes",
+      "patterns": ["What are the symptoms of diabetes?", "How do I know if I have diabetes?", "Signs of diabetes"],
+      "responses": ["Symptoms of diabetes include increased thirst, frequent urination, extreme hunger, unexplained weight loss, fatigue, and blurred vision."]
+    },
+    {
+      "tag": "asthma",
+      "patterns": ["What are the symptoms of asthma?", "How do I know if I have asthma?", "Signs of asthma"],
+      "responses": ["Symptoms of asthma include shortness of breath, chest tightness, wheezing, and coughing, especially at night or early in the morning."]
+    },
+    {
+      "tag": "hypertension",
+      "patterns": ["What are the symptoms of hypertension?", "How do I know if I have high blood pressure?", "Signs of hypertension"],
+      "responses": ["Hypertension often has no symptoms, but severe hypertension can cause headaches, shortness of breath, or nosebleeds."]
+    },
+    {
+      "tag": "depression",
+      "patterns": ["What are the symptoms of depression?", "How do I know if I am depressed?", "Signs of depression"],
+      "responses": ["Symptoms of depression include persistent sadness, loss of interest in activities, changes in appetite or weight, sleep disturbances, and feelings of worthlessness."]
+    },
+    {
+      "tag": "covid-19",
+      "patterns": ["What are the symptoms of COVID-19?", "How do I know if I have COVID?", "Signs of COVID"],
+      "responses": ["Symptoms of COVID-19 include fever, dry cough, tiredness, loss of taste or smell, and difficulty breathing."]
+    },
+    {
+      "tag": "migraine",
+      "patterns": ["What are the symptoms of a migraine?", "How do I know if I have a migraine?", "Signs of a migraine"],
+      "responses": ["Symptoms of a migraine include intense headache, sensitivity to light and sound, nausea, and visual disturbances."]
+    }
+  ]
+}
+
+//oj
